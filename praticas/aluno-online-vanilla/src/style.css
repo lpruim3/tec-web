@@ -16,7 +16,7 @@ body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: #fff;
+  background-color: var(--cor-fundo);
   color: var(--cor-texto);
 }
 
@@ -29,13 +29,13 @@ body {
 /* ===== sidebar ===== */
 .sidebar {
   width: 250px;
-  background: var(--cor-fundo);
+  background: #dcdcdc;
   padding: 20px;
 }
 
 .sidebar a {
-  text-decoration: none; 
-  color: var(--cor-texto); 
+  text-decoration: none;
+  color: var(--cor-texto);
 }
 
 .sidebar h2 {
@@ -74,23 +74,23 @@ body {
 }
 
 /* ===== cards ===== */
-.card ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 .card {
   background: #fff;
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 20px;
-  overflow: hidden; 
 }
+
 .card h3 {
   background: #dcdcdc;
   padding: 10px;
   border-radius: 6px;
   margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+  padding-left: 0;
 }
 
 /* ===== listas internas ===== */
@@ -99,7 +99,7 @@ body {
 }
 
 /* ===== responsividade ===== */
-@media (max-width: 768px) {
+@media (width <= 768px) {
 
   .container {
     flex-direction: column;
