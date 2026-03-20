@@ -16,7 +16,7 @@ body {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  background-color: var(--cor-fundo);
+  background-color: #fff;
   color: var(--cor-texto);
 }
 
@@ -79,11 +79,14 @@ body {
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 20px;
+  margin-bottom: 30px;
 }
-
+section h2{
+  margin-bottom: 30px;
+}
 .card h3 {
   background: #dcdcdc;
-  padding: 10px;
+  padding:10px 20px;
   border-radius: 6px;
   margin-bottom: 10px;
 }
