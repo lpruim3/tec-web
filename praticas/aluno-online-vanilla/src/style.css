@@ -100,7 +100,6 @@ body {
 
 /* ===== responsividade ===== */
 @media (width <= 768px) {
-
   .container {
     flex-direction: column;
   }
