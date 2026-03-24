@@ -103,6 +103,7 @@ section h2{
 
 /* ===== responsividade ===== */
 @media (width <= 768px) {
+  
   .container {
     flex-direction: column;
   }
